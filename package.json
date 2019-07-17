@@ -1,0 +1,18 @@
+{
+  "name": "vr-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/erickrawczyk/vr-playground.git",
+  "author": "Eric Krawczyk <eric.krawczyk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html --port 3000",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "aframe": "^0.9.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
